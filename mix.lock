@@ -1,0 +1,11 @@
+%{
+  "algae": {:hex, :algae, "1.2.0", "1ca9520a0f67a1e5f80f446f682e650a3fbdc6cdaaea75e3336a7d0f1ade5086", [:mix], [{:quark, "~> 2.3", [hex: :quark, repo: "hexpm", optional: false]}, {:type_class, "~> 1.2", [hex: :type_class, repo: "hexpm", optional: false]}, {:witchcraft, "~> 1.0", [hex: :witchcraft, repo: "hexpm", optional: false]}], "hexpm"},
+  "exceptional": {:hex, :exceptional, "2.1.0", "b3bc6c7041a242df9f7e18223649f3d66633827897138cf5f26c46c88b6925ae", [:mix], [], "hexpm"},
+  "file_system": {:hex, :file_system, "0.2.6", "fd4dc3af89b9ab1dc8ccbcc214a0e60c41f34be251d9307920748a14bf41f1d3", [:mix], [], "hexpm"},
+  "mix_test_watch": {:hex, :mix_test_watch, "0.9.0", "c72132a6071261893518fa08e121e911c9358713f62794a90c95db59042af375", [:mix], [{:file_system, "~> 0.2.1 or ~> 0.3", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm"},
+  "operator": {:hex, :operator, "0.2.0", "b613bdb520a20dbc016d921d444fd2ef2212136be9385d6dca448a2a38d0577f", [:mix], [], "hexpm"},
+  "quark": {:hex, :quark, "2.3.0", "3742ddc14441b4930c7067741879cb5b3e4881f391ea0aed7b138f20d16b30bb", [:mix], [], "hexpm"},
+  "type_class": {:hex, :type_class, "1.2.5", "b972bb22202e801d83e8670228d9a1476cd2c9fc7da00b7039b19d6d06b17905", [:mix], [{:exceptional, "~> 2.1", [hex: :exceptional, repo: "hexpm", optional: false]}], "hexpm"},
+  "typed_struct": {:hex, :typed_struct, "0.1.4", "25971ce73a8b336dedf2f80e4dafaab111af127ba4773955b66805c89e197f6a", [:mix], [], "hexpm"},
+  "witchcraft": {:hex, :witchcraft, "1.0.1", "5db4f9f92be480958a51bee01d3fd283a707576e5e0a0810d4442eac1f47e395", [:mix], [{:exceptional, "~> 2.1", [hex: :exceptional, repo: "hexpm", optional: false]}, {:operator, "~> 0.2", [hex: :operator, repo: "hexpm", optional: false]}, {:quark, "~> 2.2", [hex: :quark, repo: "hexpm", optional: false]}, {:type_class, "~> 1.2", [hex: :type_class, repo: "hexpm", optional: false]}], "hexpm"},
+}
